@@ -22,7 +22,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .topnav {
-  background-color: grey;
+  background-color: black;
   display: flex;
   justify-content: space-around;
 }
@@ -54,17 +54,20 @@ a {
   color: white;
   text-decoration: none;
   letter-spacing: 3px;
+
   
 }
 
 .bottom-nav-container p:hover, a:hover {
   text-decoration:underline;
   
+
+  
 }
 
 .fa {
   text-decoration: none;
-  font-size: 31px;
+  font-size: 30px;
 }
 /* Home Page */
 .name {
@@ -77,10 +80,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  height: 100vh;
 
-  background-image: url(violin.jpg);
-  background-size: 1265px 585px;
+  background-image: url(DaryaWebsitePortraits-1.png);
+  background-size: 1265px 750px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #00000040; 
@@ -91,14 +94,23 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 95vh;
+  height: 100vh;
 
-  background-image: url(violin.jpg);
-  background-size: 1265px 585px;
+  background-image: url(DaryaWebsitePortraits-5.png);
+  background-size: 1265px 617px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #00000040; 
   background-blend-mode: darken 
+}
+
+.about-content {
+  position: absolute;
+  background-color: black;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 85vh;
+  padding-bottom: 10px;
 }
 
 .about-title{
@@ -113,15 +125,16 @@ a {
   color:white;
   padding-left: 40px;
   padding-right: 40px;
+  text-indent: 25px;
 }
 
 /* Contact Page */
 .form-container{
-height: 95vh;
+height: 100vh;
 font-weight: bold;
 
   background-image: url(violin.jpg);
-  background-size: 1265px 585px;
+  background-size: 1265px 617px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #00000040; 
@@ -158,5 +171,14 @@ font-weight: bold;
   border-right-style: hidden;
   border-left-style:hidden;
   border-bottom-style: hidden;
+}
+
+.submit-btn {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  letter-spacing: 1px;
 }
 
