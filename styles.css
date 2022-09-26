@@ -49,26 +49,27 @@ text-decoration: underline;
   justify-content: space-around;
   align-items: center;
 }
-
-@media screen and (max-width: 426px) {
+/*large phones*/
+@media screen and (max-width: 500px) {
   .bottom-nav-container {
     height: 14%;
   }
 }
-@media screen and (max-width: 321px) {
+/*small phone*/
+@media screen and (max-width: 319px) {
   .bottom-nav-container {
     height: 16%;
   }
 }
-
-@media screen and (max-width: 426px) {
+/*large phone*/
+@media screen and (max-width: 500px) {
   .bottom-nav-container div{
    width: 50px;
    display: flex;
    justify-content: space-between;
   }
 }
-
+/*tablet phone*/
 @media screen and (min-width: 767px){
   .bottom-nav-container div{
     width: 70px;
@@ -76,7 +77,7 @@ text-decoration: underline;
    justify-content: space-between;
   }
 }
-
+/*medium phone*/
 @media screen and (max-width: 375px) {
   .bottom-nav-container{
     display: flex;
@@ -96,8 +97,8 @@ a {
   text-decoration: none;
   letter-spacing: 3px;  
 }
-
-@media  screen and (max-width: 700px){
+/*large phone*/
+@media  screen and (max-width: 500px){
   .bottom-nav-container p, a {
     font-size: 10px;
     letter-spacing: 0px;
@@ -114,8 +115,8 @@ a {
   text-decoration: none;
   font-size: 30px;
 }
-
-@media screen and  (max-width: 700px){
+/*large phone*/
+@media screen and  (max-width: 500px){
   .fa{
     font-size: 20px
   }
@@ -130,8 +131,8 @@ a {
   margin: 15px;
   margin-bottom: 150px;
 }
-
-@media screen and (max-width: 426px){
+/*large phone*/
+@media screen and (max-width: 500px){
   .home-container{
     flex-direction: column;
     margin-bottom: 50px;
@@ -152,8 +153,8 @@ a {
   letter-spacing: 5px;
   text-align: center;
 }
-
-@media screen and (max-width: 426px) {
+/*large phone*/
+@media screen and (max-width: 500px) {
   .name{
     font-size: 50px;
   }
@@ -181,8 +182,8 @@ a {
     grid-gap: 15px;
     margin: 0px 15px 15px;
 }
-
-@media screen and (max-width: 426px) {
+/*large phone*/
+@media screen and (max-width: 500px) {
   .img-gallery-container {
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: repeat(6, 95vw);
@@ -206,7 +207,7 @@ a {
   margin-left: 20px;
   margin-right: 20px;
 }
-
+/*laptop*/
 @media screen and (max-width: 800px) {
  .about-container {
   display: flex;
@@ -261,7 +262,7 @@ a {
   margin: 15px;
   height: 100vh;
 }
-
+/*large phone*/
 @media screen and (max-width: 426px) {
   .contact-container{
     flex-direction: column;
@@ -302,15 +303,15 @@ margin-top: 10px;
   border: 1.5px solid black;
   border-radius: 10px;
 }
-
-@media screen and (max-width: 769px) {
+/*tablet */
+@media screen and (max-width: 1000px) {
   .fullname-box, .lname-box, .email-box {
     height: 25px;
     width: 350px;
   }
 }
-
-@media screen and (max-width: 321px) {
+/*tablet */
+@media screen and (max-width: 374px) {
   .fullname-box, .lname-box, .email-box {
     height: 25px;
     width: 300px;
@@ -323,15 +324,15 @@ margin-top: 10px;
   border: 1.5px solid black;
   border-radius: 10px;
 }
-
-@media screen and (max-width: 769px) {
+/*tablet mode*/
+@media screen and (max-width: 1000px) {
   .message-box {
   height: 100px;
   width: 350px;
   }
 }
-
-@media screen and (max-width: 321px) {
+/*tablet mode*/
+@media screen and (max-width: 374px) {
   .message-box {
   height: 100px;
   width: 300px;
