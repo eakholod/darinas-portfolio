@@ -260,13 +260,14 @@ a {
   display: flex;
   flex-direction: row;
   margin: 15px;
-  height: 100vh;
+  /* height: 100vh; */
+  margin-bottom: 120px;
 }
 /*large phone*/
 @media screen and (max-width: 767px) {
   .contact-container{
     flex-direction: column;
-    height: 130vh;
+    /* height: 130vh;   */
   }
   
 }
@@ -343,6 +344,7 @@ margin-top: 10px;
   height: 30px;
   padding-left: 10px;
   padding-right: 10px;
+  color: black;
   background-color: rgb(240, 240, 240);
   border-style: hidden;
   border-radius: 10px;
