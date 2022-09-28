@@ -103,12 +103,6 @@ a {
     letter-spacing: 0px;
   }
 }
-  
-
-.bottom-nav-container p:hover, a:hover {
-  text-decoration:underline;  
-}
-
 
 .fa {
   text-decoration: none;
@@ -180,7 +174,6 @@ a {
     grid-template-rows: repeat(1, 35vw);
     grid-gap: 15px;
     margin: 0px 15px 15px;
-    
 }
 /*large phone*/
 @media screen and (max-width: 500px) {
@@ -232,8 +225,6 @@ a {
   margin-bottom:20px ;
   margin-top: 20px;
   flex: 1 1 50%;
-  /* background-color: rgb(240, 240, 240); */
-
 }
 
 .about-title{
