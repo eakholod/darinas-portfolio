@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+
 /* General CSS */
 body,
 html,
@@ -90,7 +94,9 @@ body {
 }
 
 .topnav {
-  background-color: white;
+  background-color: rgb(230, 230, 230);
+  padding-top: 3px;
+  padding-bottom: 3px;
   display: flex;
   justify-content: space-around;
   box-shadow: -5px -5px 5px 3px;
@@ -158,11 +164,11 @@ body {
   }
 }
 
-.bottom-nav-container p,
-a {
+.bottom-nav-container a, p {
   color: black;
   text-decoration: none;
   letter-spacing: 3px;
+  cursor: pointer;
 }
 /*large phone*/
 @media screen and (max-width: 500px) {
@@ -213,6 +219,7 @@ a {
   color: black;
   letter-spacing: 5px;
   text-align: center;
+  font-family: 'Bodoni Moda', serif;
 }
 /*large phone*/
 @media screen and (max-width: 500px) {
@@ -225,6 +232,7 @@ a {
   display: flex;
   justify-content: space-around;
   margin-top: 15px;
+  font-family: 'Noto Sans Mono', monospace;
 }
 
 .home-img-container {
@@ -295,7 +303,8 @@ a {
 .about-title {
   color: Black;
   padding-left: 40px;
-  font-size: 60px;
+  font-size: 60px; 
+  font-family: 'Bodoni Moda', serif;
   margin: 0 0;
   letter-spacing: 5px;
 }
@@ -310,7 +319,7 @@ a {
 
 /* Contact Page */
 .contact-title {
-  font-family: inherit;
+  font-family: 'Bodoni Moda', serif;
   text-align: center;
   font-size: 55px;
 }
@@ -423,4 +432,6 @@ a {
   border-radius: 10px;
   letter-spacing: 1px;
   font-family: inherit;
+  cursor: pointer;
+
 }
