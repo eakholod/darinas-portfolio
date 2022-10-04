@@ -294,6 +294,10 @@ margin-top: 10px;
   letter-spacing: 3px; 
 }
 
+.contact-info {
+  padding: 8px;
+}
+
 .fullname-box, .lname-box, .email-box {
   height: 30px;
   width: 400px;
