@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+
 /* General CSS */
 body,html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -145,6 +149,7 @@ a {
   color: black;
   letter-spacing: 5px;
   text-align: center;
+  font-family: 'Bodoni Moda', serif;
 }
 /*large phone*/
 @media screen and (max-width: 500px) {
@@ -157,6 +162,7 @@ a {
   display: flex;
   justify-content: space-around;
   margin-top: 15px;
+  font-family: 'Noto Sans Mono', monospace;
 }
 
 
@@ -231,6 +237,7 @@ a {
   color: Black;
   padding-left: 40px;
   font-size: 60px; 
+  font-family: 'Bodoni Moda', serif;
   margin: 0 0;
   letter-spacing: 5px;
   
@@ -246,7 +253,7 @@ a {
 
 /* Contact Page */
 .contact-title {
-  font-family: inherit;
+  font-family: 'Bodoni Moda', serif;
   text-align: center;
   font-size: 55px;
 }
