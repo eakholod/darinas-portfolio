@@ -164,7 +164,7 @@ body {
   }
 }
 
-.bottom-nav-container a, p {
+.bottom-nav-container a, .bottom-nav-container p {
   color: black;
   text-decoration: none;
   letter-spacing: 3px;
@@ -239,6 +239,29 @@ body {
 }
 
 .home-container img {
+  width: 100%;
+}
+
+.img-quote-container {
+  display: flex;
+  flex-direction: row;
+  margin: 15pxc;
+}
+
+.img-for-quote {
+  flex: 1 1 50%;
+  margin: 15px;
+  
+}
+
+.quote-for-img {
+  flex: 1 1 50%;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.img-for-quote img {
   width: 100%;
 }
 
