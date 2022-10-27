@@ -245,7 +245,7 @@ body {
 .img-quote-container {
   display: flex;
   flex-direction: row;
-  margin: 15pxc;
+  margin: 15px;
 }
 
 .img-for-quote {
@@ -257,8 +257,15 @@ body {
 .quote-for-img {
   flex: 1 1 50%;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   margin: 15px;
+  text-indent: 15px;
+}
+
+.quote-for-img p:first-of-type {
+  font-style: italic;
 }
 
 .img-for-quote img {
