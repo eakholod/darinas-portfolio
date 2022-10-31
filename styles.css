@@ -151,7 +151,7 @@ body {
   }
 }
 /*medium phone*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 499px) {
   .bottom-nav-container {
     display: flex;
     flex-direction: column;
