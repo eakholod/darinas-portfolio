@@ -194,9 +194,11 @@ body {
 .home-container {
   display: flex;
   flex-direction: row;
-  /* height: 80vh; */
-  margin: 15px;
-  margin-bottom: 150px;
+  /* margin: 15px;
+  margin-bottom: 150px; */
+  margin: 40px auto 100px;  
+  max-width: 1120px;
+
 }
 /*large phone*/
 @media screen and (max-width: 500px) {
@@ -242,6 +244,10 @@ body {
   width: 100%;
 }
 
+.img-gallery-quote-container{
+  margin: 0 auto;
+  max-width: 1120px;
+}
 .img-quote-container {
   display: flex;
   flex-direction: row;
