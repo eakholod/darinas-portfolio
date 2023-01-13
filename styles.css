@@ -93,6 +93,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .topnav {
   background-color: rgb(230, 230, 230);
   padding-top: 3px;
