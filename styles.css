@@ -197,7 +197,7 @@ body {
   /* margin: 15px;
   margin-bottom: 150px; */
   margin: 40px auto 100px;  
-  max-width: 1120px;
+  max-width: 1500px;
 
 }
 /*large phone*/
@@ -246,7 +246,7 @@ body {
 
 .img-gallery-quote-container{
   margin: 0 auto;
-  max-width: 1120px;
+  max-width: 1500px;
 }
 .img-quote-container {
   display: flex;
