@@ -120,7 +120,7 @@ html {
 .bottom-nav-container {
   background-color: rgb(230, 230, 230);
   left: 0;
-  height: 20%;
+  height: 10%;
   width: 100%;
   display: flex;
   justify-content: space-around;
