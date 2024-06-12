@@ -91,6 +91,7 @@ video {
 
 body {
   font-family: "Poppins", sans-serif;
+  height: 100%;
 }
 
 html {
@@ -119,7 +120,8 @@ html {
 
 .bottom-nav-container {
   background-color: rgb(230, 230, 230);
-  left: 0;
+  position: fixed;
+  bottom: 0;
   height: 10%;
   width: 100%;
   display: flex;
@@ -280,8 +282,6 @@ html {
 .img-for-quote {
   flex: 1 1 50%;
   margin: 15px;
-
-  
 }
 
 .quote-for-img {
