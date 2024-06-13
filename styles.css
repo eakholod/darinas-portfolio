@@ -1,6 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap");
 
 /* General CSS */
 body,
@@ -91,6 +90,7 @@ video {
 
 body {
   font-family: "Poppins", sans-serif;
+  height: 100%;
 }
 
 html {
@@ -119,12 +119,13 @@ html {
 
 .bottom-nav-container {
   background-color: rgb(230, 230, 230);
-  left: 0;
-  height: 10%;
+  bottom: 0;
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 130px;
 }
 /*large phones*/
 @media screen and (max-width: 500px) {
@@ -168,7 +169,8 @@ html {
   }
 }
 
-.bottom-nav-container a, .bottom-nav-container p {
+.bottom-nav-container a,
+.bottom-nav-container p {
   color: black;
   text-decoration: none;
   letter-spacing: 3px;
@@ -194,15 +196,23 @@ html {
   }
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.page-container {
+  flex: 1; 
+}
+
 /* Home Page */
 .home-container {
   display: flex;
   flex-direction: row;
   /* margin: 15px;
   margin-bottom: 150px; */
-  margin: 40px auto 100px;  
+  margin: 40px auto 100px;
   max-width: 1500px;
-
 }
 /*large phone*/
 @media screen and (max-width: 500px) {
@@ -225,7 +235,7 @@ html {
   color: black;
   letter-spacing: 5px;
   text-align: center;
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
 }
 /*large phone*/
 @media screen and (max-width: 500px) {
@@ -243,8 +253,8 @@ html {
   font-size: 18px;
 }
 .skill-container a {
- text-decoration: none;
- color: black;
+  text-decoration: none;
+  color: black;
 }
 .home-img-container {
   flex: 1 1 50%;
@@ -254,7 +264,7 @@ html {
   width: 100%;
 }
 
-.img-gallery-quote-container{
+.img-gallery-quote-container {
   margin: 0 auto;
   max-width: 1500px;
 }
@@ -263,7 +273,7 @@ html {
   flex-direction: row;
   margin: 15px;
 }
-@media screen and (max-width:769px) {
+@media screen and (max-width: 769px) {
   .img-quote-container {
     display: flex;
     flex-direction: column;
@@ -280,8 +290,6 @@ html {
 .img-for-quote {
   flex: 1 1 50%;
   margin: 15px;
-
-  
 }
 
 .quote-for-img {
@@ -299,9 +307,9 @@ html {
   font-weight: 600;
 }
 
-@media screen  and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .quote-for-img p:first-of-type {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 
@@ -336,7 +344,7 @@ html {
 .about-container {
   display: flex;
   flex-direction: row;
-
+  height: 100%;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -359,7 +367,6 @@ html {
   width: 100%;
   margin-top: 22px;
   margin-bottom: 22px;
-
 }
 
 .about-content {
@@ -371,8 +378,8 @@ html {
 .about-title {
   color: Black;
   padding-left: 40px;
-  font-size: 60px; 
-  font-family: 'Bodoni Moda', serif;
+  font-size: 60px;
+  font-family: "Bodoni Moda", serif;
   margin: 0 0;
   letter-spacing: 5px;
 }
@@ -387,7 +394,7 @@ html {
 
 /* Contact Page */
 .contact-title {
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
   text-align: center;
   font-size: 55px;
 }
@@ -427,7 +434,7 @@ html {
 }
 
 .form-container label {
-  color: black; 
+  color: black;
   padding-bottom: 10px;
   letter-spacing: 3px;
 }
@@ -501,5 +508,7 @@ html {
   letter-spacing: 1px;
   font-family: inherit;
   cursor: pointer;
-
 }
+
+/* Gallery Page */
+
