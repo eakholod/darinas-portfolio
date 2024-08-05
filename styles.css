@@ -567,4 +567,32 @@ html {
   cursor: pointer;
 }
 
-/* Gallery Page */
+/* Studio Policy */
+
+.studio-policy-container {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+}
+
+.studio-policy-title {
+  font-size: 55px;
+  font-family: "Bodoni Moda", serif;
+  text-align: center;
+}
+
+.studio-policy-container h3 {
+ text-align: center;
+ padding: 15px;
+ text-decoration: underline;
+}
+
+.studio-policy-container ul {
+  margin: 30px;
+  text-indent: 15px;
+}
+
+.studio-policy-container li {
+  margin: 15px;
+}
+
