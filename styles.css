@@ -103,6 +103,7 @@ html {
   padding-bottom: 3px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   box-shadow: -5px -5px 5px 3px;
 }
 
@@ -117,6 +118,44 @@ html {
   text-decoration: underline;
 }
 
+.topnav-two {
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-toggle {
+  display: none;
+  background-color: rgb(230, 230, 230);
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+  position: relative;
+  right: 20px;
+}
+
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  background-color: rgb(230, 230, 230);
+  position: absolute;
+  top: 38px;
+  width: 100%;
+  left: 0;
+}
+
+.dropdown-menu a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.dropdown-menu a:hover {
+  text-decoration: underline;
+}
+
 .bottom-nav-container {
   background-color: rgb(230, 230, 230);
   bottom: 0;
@@ -127,6 +166,24 @@ html {
   align-items: center;
   height: 130px;
 }
+
+@media screen and (max-width: 1023px) {
+   .topnav {
+    display: none;
+  }
+  .topnav a {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .dropdown-menu {
+    display: flex;
+  }
+}
+
 /*large phones*/
 @media screen and (max-width: 500px) {
   .bottom-nav-container {
@@ -202,7 +259,7 @@ html {
   min-height: 100vh;
 }
 .page-container {
-  flex: 1; 
+  flex: 1;
 }
 
 /* Home Page */
@@ -511,4 +568,3 @@ html {
 }
 
 /* Gallery Page */
-
