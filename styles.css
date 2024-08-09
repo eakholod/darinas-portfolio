@@ -375,11 +375,12 @@ html {
 }
 
 .ad-container {
-  margin: 15px;
+  margin: 15px 0px;
   display: flex;
   justify-content: space-around;
   font-size: x-large;
-  border: 2px dashed black;
+  background-color: rgb(230, 230, 230);
+
 }
 
 .ad-container p {
