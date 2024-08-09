@@ -374,6 +374,39 @@ html {
   width: 100%;
 }
 
+.ad-container {
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+  border: 2px dashed black;
+}
+
+.ad-container p {
+  margin: 25px 0px;
+}
+
+.ad-container a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: blue;
+}
+
+.ad-container a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .ad-container {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .ad-container {
+    font-size: x-small;
+  }
+}
 /* .img-gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
