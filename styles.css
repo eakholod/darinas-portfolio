@@ -148,6 +148,7 @@ html {
 .dropdown-menu a {
   padding: 10px 20px;
   text-decoration: none;
+  font-size: medium;
   color: black;
   text-align: center;
 }
@@ -184,18 +185,26 @@ html {
   }
 }
 
-/*large phones*/
-@media screen and (max-width: 500px) {
-  .bottom-nav-container {
-    height: 14%;
-  }
-}
 /*small phone*/
 @media screen and (max-width: 319px) {
   .bottom-nav-container {
     height: 16%;
   }
 }
+/*medium phone*/
+@media screen and (max-width: 769px) {
+  .bottom-nav-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-nav-container p {
+    order: 1;
+  }
+  .bottom-nav-container div {
+    order: 2;
+  }
+}
+
 /*large phone*/
 @media screen and (max-width: 500px) {
   .bottom-nav-container div {
@@ -210,19 +219,6 @@ html {
     width: 70px;
     display: flex;
     justify-content: space-between;
-  }
-}
-/*medium phone*/
-@media screen and (max-width: 769px) {
-  .bottom-nav-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .bottom-nav-container p {
-    order: 1;
-  }
-  .bottom-nav-container div {
-    order: 2;
   }
 }
 
@@ -374,28 +370,40 @@ html {
   width: 100%;
 }
 
-/* .img-gallery-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 35vw);
-  grid-gap: 15px;
-  margin: 0px 15px 15px;
-}
-/*large phone*/
-/* @media screen and (max-width: 500px) {
-  .img-gallery-container {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 95vw);
-    grid-gap: 10px;
-    margin: 100px 0px 15px 0px;
-  }
-} */
+.ad-container {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+  background-color: rgb(230, 230, 230);
 
-/* .img-gallery-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}  */
+}
+
+.ad-container p {
+  margin: 25px 0px;
+}
+
+.ad-container a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: blue;
+}
+
+.ad-container a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .ad-container {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .ad-container {
+    font-size: small;
+  }
+}
 
 /* About Page */
 .about-container {
